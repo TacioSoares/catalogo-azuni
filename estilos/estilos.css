@@ -29,3 +29,6 @@
 .container-produto p {
     font-weight: bold;
 }
+.container-produto img {
+    border-radius: 15px;
+}
