@@ -13,22 +13,29 @@
 }
 .container {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
 
 .container-produto {
-    cursor: pointer;
-    width: calc(32% - (4 * 5px));
+    display: flex;
+    margin: 15px 5px;
+    flex-direction: column;
+    width: 155px;
+    /* width: calc(32% - (4 * 5px)); */
 }
 
 .container-produto h3 {
     font-weight: lighter;
+    cursor: pointer;
 }
 .container-produto p {
     font-weight: bold;
+    cursor: pointer;
 }
 .container-produto img {
     border-radius: 15px;
+    cursor: pointer;
 }
