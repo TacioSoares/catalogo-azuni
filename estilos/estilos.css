@@ -1,0 +1,31 @@
+*,
+::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aneis, .brincos, .correntes, .pulseiras, .conjuntos {
+    margin-top: 100px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.container-produto {
+    cursor: pointer;
+    width: calc(32% - (4 * 5px));
+}
+
+.container-produto h3 {
+    font-weight: lighter;
+}
+.container-produto p {
+    font-weight: bold;
+}
