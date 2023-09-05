@@ -13,33 +13,38 @@ function preenchePecas(produtos, container) {
         var img = document.createElement('img')
         var h3 = document.createElement('h3')
         var p = document.createElement('p')
+        var button = document.createElement('input')
 
         // INSERE ATRIBUTOS NOS ELEMENTOS CRIADOS
-        insereAtributos(divProduto, img, elemento) 
+        insereAtributos(divProduto, img, elemento, button) 
 
         // ADICIONA TEXTOS NOS ELEMENTOS
         adicionaTextos(h3, p, elemento)
 
         // INSERE OS ELEMENTOS UM NOS OUTROS
-        container.appendChild(aglutinaElementos(divProduto, img, h3, p))
+        container.appendChild(aglutinaElementos(divProduto, img, h3, p, button))
     });
 }
 
-function insereAtributos(div, img, elemento) {
+function insereAtributos(div, img, elemento, button) {
     div.setAttribute('class', 'container-produto')
     img.setAttribute('src', `${elemento.fotos[0]}`)
     img.setAttribute('alt', `${elemento.nome}`)
+    button.setAttribute('type', `button`)
+    button.setAttribute('value', `Adicionar ao carrinho`)
+    button.setAttribute('class', `botao-adiciona-no-carrinho`)
 }
 
 function adicionaTextos(h3, p, elemento) {
     h3.innerHTML = `${elemento.nome}`
-    p.innerHTML = `${elemento.valor}`
+    p.innerHTML = `R$ ${elemento.valor.toFixed(2)}`
 }
 
-function aglutinaElementos(div, img, h3, p) {
+function aglutinaElementos(div, img, h3, p, button) {
     div.appendChild(img)
     div.appendChild(h3)
     div.appendChild(p)
+    div.appendChild(button)
     return div
 }
 

@@ -81,55 +81,39 @@ const estoque = {
     ],
     brincos: [
         {
-            nome: 'Anel fases da lua',
-            subTipo: 'anel',
+            nome: '',
+            subTipo: '',
             descricao: '',
             valor: 15.90,
             fotos: [
-                './src/img/Aneis/Anel-fases-da-lua/capa.jpg',
-
-                './src/img/Aneis/Anel-fases-da-lua/IMG_20230719_122312.jpg',
-
-                './src/img/Aneis/Anel-fases-da-lua/IMG_20230719_172433.jpg'
+                
             ]
         },
         {
-            nome: 'Anel losângulo e linhas',
-            subTipo: 'anel',
+            nome: '',
+            subTipo: '',
             descricao: '',
             valor: 20.90,
             fotos: [
-                './src/img/Aneis/Anel-losango-e-linhas/capa.jpg',
-
-                './src/img/Aneis/Anel-losango-e-linhas/IMG_20230719_121300.jpg',
-
-                './src/img/Aneis/Anel-losango-e-linhas/losango.jpg'
+                
             ]
         },
         {
-            nome: 'Anel seta dupla',
-            subTipo: 'anel',
+            nome: '',
+            subTipo: '',
             descricao: '',
             valor: 19.90,
             fotos: [
-                './src/img/Aneis/Anel-seta-dupla/capa.jpg',
-
-                './src/img/Aneis/Anel-seta-dupla/IMG_20230719_122727.jpg',
-
-                './src/img/Aneis/Anel-seta-dupla/seta dupla.jpg'
+                
             ]
         },
         {
-            nome: 'Anel vintege arabescos',
-            subTipo: 'anel',
+            nome: '',
+            subTipo: '',
             descricao: '',
             valor: 15.90,
             fotos: [
-                './src/img/Aneis/Anel-vintage-arabescos-regulavel/capa.jpg',
-
-                './src/img/Aneis/Anel-vintage-arabescos-regulavel/arabesco.jpg',
-
-                './src/img/Aneis/Anel-vintage-arabescos-regulavel/IMG_20230719_121102.jpg'
+                
             ]
         },
     ],
@@ -140,7 +124,7 @@ const estoque = {
             descricao: '',
             valor: 20.00,
             fotos: [
-                './src/img/',
+                '',
                 '',
                 ''
             ]
@@ -151,7 +135,7 @@ const estoque = {
             descricao: '',
             valor: 20.00,
             fotos: [
-                './src/img/',
+                '',
                 '',
                 ''
             ]
@@ -164,7 +148,7 @@ const estoque = {
             descricao: '',
             valor: 20.00,
             fotos: [
-                './src/img/',
+                '',
                 '',
                 ''
             ]
@@ -175,7 +159,7 @@ const estoque = {
             descricao: '',
             valor: 20.00,
             fotos: [
-                './src/img/',
+                '',
                 '',
                 ''
             ]
@@ -188,7 +172,7 @@ const estoque = {
             descricao: '',
             valor: 20.00,
             fotos: [
-                './src/img/',
+                '',
                 '',
                 ''
             ]
@@ -199,7 +183,7 @@ const estoque = {
             descricao: '',
             valor: 20.00,
             fotos: [
-                './src/img/',
+                '',
                 '',
                 ''
             ]

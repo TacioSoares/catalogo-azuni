@@ -7,6 +7,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 header  {
     display: flex;
     flex-direction: column;
@@ -16,7 +20,79 @@ header  {
 header img {
     width: 50%;
 }
+.lixeira {
+    cursor: pointer;
+}
+.passa-regua {
+    text-decoration: overline;
+}
+.finalizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finalizar input {
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
 
+}
+menu {
+    display: flex;
+    margin-bottom: 40px;
+    width: 150%;
+    justify-content: space-around;
+    align-items: center;
+}
+h1, h4 {
+    text-align: center;
+}
+
+div {
+    margin: 20px 0;
+}
+
+li > img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+#carrinho {
+    position: relative;
+    transform: '100%';
+    display: none;
+    transition: left 1s linear 1s;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.lista-carrinho {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-carrinho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.total {
+    font-weight: bold;
+}
+menu div {
+    display: flex;
+    flex-direction: column;
+}
+select, option {
+    cursor: pointer;
+}
+.carrinho {
+    cursor: pointer;
+    font-size: 2.5em;
+}
 .aneis, .brincos, .correntes, .pulseiras, .conjuntos {
     margin-top: 100px;
     text-align: center;
@@ -48,4 +124,10 @@ header img {
 .container-produto img {
     border-radius: 15px;
     cursor: pointer;
+}
+
+.atirada {
+    position: absolute;
+    width: 100px;
+    transition: transform 0.3s;
 }

@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/estilos.css">
     <title>Catálogo Azuni</title>
 </head>
+
 <body>
     <header>
         <img src="./src/logo sem fundo.png" alt="Logo azuni">
-        <h1>Catálogo</h1>
+
         <menu>
-            <h3>
-                Filtrar:
-            </h3>
+            <div>
+                <h4>
+                    Mostrar apenas:
+                </h4>
+                <select name="categoria" id="categoria-itens">
+                    <option value="todos">Todos</option>
+                    <option value="aneis">Anéis</option>
+                    <option value="brincos">Brincos</option>
+                    <option value="correntes">Correntes</option>
+                    <option value="conjuntos">Conjuntos</option>
+                    <option value="pulseiras">Pulseiras</option>
+                </select>
+            </div>
+            <span class="material-symbols-outlined carrinho">
+                shopping_cart
+            </span>
             
         </menu>
     </header>
+    <section id="carrinho">
+        <h4>Itens adicionados no carrinho</h4>
+        <div class="produto">
+            <ul class="lista-carrinho" style="list-style: none;">
+                
+            </ul>
+            
+        </div>
+        <div class="finalizar">
+            <input type="button" id="botao-comprar" value="Comprar" disabled>
+        </div>
+    </section>
+    <h1>Catálogo</h1>
     <section class="aneis">
         <h2>Anéis</h2>
         <div class="container">
@@ -65,13 +95,13 @@
     <section class="correntes">
         <h2>Chokers, coláres e correntes</h2>
         <div class="container">
-            
+
         </div>
     </section>
     <section class="conjuntos">
         <h2>Conjuntos</h2>
         <div class="container">
-            
+
         </div>
     </section>
     <section class="pulseiras">
@@ -86,5 +116,8 @@
     </section>
     <script src="./logica/estoque.js"></script>
     <script src="./logica/catalogo.js"></script>
+    <script src="./logica/adicionaProdutoNoCarrinho.js"></script>
+    <script src="./logica/montaPaginaCarrinho.js"></script>
 </body>
+
 </html>
