@@ -461,7 +461,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Choker Corações Entrelaçados',
+            nome: 'Choker corações entrelaçados',
             subTipo: 'chocker',
             descricao:'',
             valor: 41.90,
