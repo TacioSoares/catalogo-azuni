@@ -24,21 +24,25 @@ function procuraProdutoClicado(nomeProdutoClicado, event) {
     })
     estoque.brincos.forEach(brinco=>{
         if(brinco.nome.indexOf(nomeProdutoClicado)===0) {
+            enviaProCarrinho(brinco.fotos[0], event)
             adicionaProdutoNoCarrinho(brinco)
         }
     })
     estoque.colares.forEach(colar=>{
         if(colar.nome.indexOf(nomeProdutoClicado)===0) {
+            enviaProCarrinho(colar.fotos[0], event)
             adicionaProdutoNoCarrinho(colar)
         }
     })
     estoque.conjuntos.forEach(conjunto=>{
         if(conjunto.nome.indexOf(nomeProdutoClicado)===0) {
+            enviaProCarrinho(conjunto.fotos[0], event)
             adicionaProdutoNoCarrinho(conjunto)
         }
     })
     estoque.pulseiras.forEach(pulseira=>{
         if(pulseira.nome.indexOf(nomeProdutoClicado)===0) {
+            enviaProCarrinho(pulseira.fotos[0], event)
             adicionaProdutoNoCarrinho(pulseira)
         }
     })
@@ -65,6 +69,7 @@ function atualizaCarrinho() {
 }
 
 function enviaProCarrinho(foto, event) {
+    console.log(event.target)
     console.log(event.target.parentNode/* .getBoundingClientRect() */)
     let localPartida = event.target.parentNode
     let imagemAtirada = document.createElement('img')
