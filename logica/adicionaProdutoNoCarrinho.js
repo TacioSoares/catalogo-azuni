@@ -4,6 +4,7 @@ const carrinho = []
 const lista = document.querySelector('.lista-carrinho')
 /* console.log(carrinho.getBoundingClientRect()) */
 const quantidade = document.querySelector('.quantidade')
+var produtoComprado = ''
 
 botaoAddCarrinho.forEach(botao => {
     botao.addEventListener('click', pegaProdutoClicado)
@@ -49,6 +50,7 @@ function adicionaProdutoNoCarrinho(produto) {
 }
 
 function atualizaCarrinho() {
+    produtoComprado = ''
     if(carrinho.length > 0){
         botaoComprar.removeAttribute('disabled')
         quantidade.innerHTML = `${carrinho.length}`
@@ -56,6 +58,9 @@ function atualizaCarrinho() {
         botaoComprar.setAttribute('disabled', 'true')
         quantidade.innerHTML = ''
     }
+    carrinho.forEach(compra => {
+        produtoComprado += ` ${compra.nome},`
+    })
     criaPaginaCarrinho()
 }
 
