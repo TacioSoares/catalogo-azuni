@@ -86,7 +86,7 @@ const estoque = {
             descricao: '',
             valor: 17.90,
             fotos: [
-                './src/img/Brincos-e-argolas/argola-curvada-M/capa.jpg',
+                'src/img/Brincos-e-argolas/Argola-curvada-M/capa.jpg',
                 
                 './src/img/Brincos-e-argolas/IMG_20230527_191713.jpg',
 

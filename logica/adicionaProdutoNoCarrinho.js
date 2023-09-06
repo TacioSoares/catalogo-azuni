@@ -58,9 +58,11 @@ function atualizaCarrinho() {
     if(carrinho.length > 0){
         botaoComprar.removeAttribute('disabled')
         quantidade.innerHTML = `${carrinho.length}`
+        quantidade.style.display = 'inline'
     } else {
         botaoComprar.setAttribute('disabled', 'true')
         quantidade.innerHTML = ''
+        quantidade.style.display = 'none'
     }
     carrinho.forEach(compra => {
         produtoComprado += ` ${compra.nome},`
@@ -86,8 +88,6 @@ function configuraImage(imagem, foto, localPartida) {
     imagem.setAttribute('class', 'atirada')
     /* imagem.style.top = '0' */
     localPartida.appendChild(imagem)
-    console.log(posicaoX-imagem.getBoundingClientRect().x)
-    console.log(localPartida)
     setTimeout(() => {
         imagem.style.transition = 'transform 2s;'
         imagem.style.transform  = `translate(${posicaoX-imagem.getBoundingClientRect().x}px, -${imagem.getBoundingClientRect().y-posicaoY}px)`
