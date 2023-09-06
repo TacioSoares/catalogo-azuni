@@ -13,7 +13,8 @@
 <body>
     <header>
         <img src="./src/logo sem fundo.png" alt="Logo azuni">
-
+        
+        <h1 id="titulo-principal">Catálogo</h1>
         <menu>
             <div>
                 <h4>
@@ -29,6 +30,7 @@
                 </select>
             </div>
             <span class="material-symbols-outlined carrinho">
+                <span class="quantidade"></span>
                 shopping_cart
             </span>
             
@@ -46,7 +48,6 @@
             <input type="button" id="botao-comprar" value="Comprar" disabled>
         </div>
     </section>
-    <h1>Catálogo</h1>
     <section class="aneis">
         <h2>Anéis</h2>
         <div class="container">
@@ -114,6 +115,7 @@
             </div>
         </div>
     </section>
+    
     <script src="./logica/estoque.js"></script>
     <script src="./logica/catalogo.js"></script>
     <script src="./logica/adicionaProdutoNoCarrinho.js"></script>

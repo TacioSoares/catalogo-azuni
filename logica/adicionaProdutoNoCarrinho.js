@@ -3,7 +3,7 @@ const botaoAddCarrinho = document.querySelectorAll('.botao-adiciona-no-carrinho'
 const carrinho = []
 const lista = document.querySelector('.lista-carrinho')
 /* console.log(carrinho.getBoundingClientRect()) */
-
+const quantidade = document.querySelector('.quantidade')
 
 botaoAddCarrinho.forEach(botao => {
     botao.addEventListener('click', pegaProdutoClicado)
@@ -51,8 +51,10 @@ function adicionaProdutoNoCarrinho(produto) {
 function atualizaCarrinho() {
     if(carrinho.length > 0){
         botaoComprar.removeAttribute('disabled')
+        quantidade.innerHTML = `${carrinho.length}`
     } else {
         botaoComprar.setAttribute('disabled', 'true')
+        quantidade.innerHTML = ''
     }
     criaPaginaCarrinho()
 }
@@ -66,14 +68,22 @@ function enviaProCarrinho(foto, event) {
 }
 
 function configuraImage(imagem, foto, localPartida) {
-    console.log(iconeCarrinho.getBoundingClientRect())
+    /* console.log(iconeCarrinho.getBoundingClientRect().x)
+    console.log(imagem.getBoundingClientRect()) */
+    let posicaoX = iconeCarrinho.getBoundingClientRect().x.toFixed(0)
+    let posicaoY = iconeCarrinho.getBoundingClientRect().y.toFixed(0)
     imagem.setAttribute('src', foto)
     imagem.setAttribute('class', 'atirada')
+    /* imagem.style.top = '0' */
     localPartida.appendChild(imagem)
+    console.log(posicaoX-imagem.getBoundingClientRect().x)
+    console.log(localPartida)
     setTimeout(() => {
-        imagem.style.transition = '0.3s;'
-        imagem.style.top = '-145px'
-        imagem.style.left = '423px'
+        imagem.style.transition = 'transform 2s;'
+        imagem.style.transform  = `translate(${posicaoX-imagem.getBoundingClientRect().x}px, -${imagem.getBoundingClientRect().y-posicaoY}px)`
+        setTimeout(() => {
+        localPartida.removeChild(imagem)
+        }, 300)
     }, 100);
     
     /* transform: translate(200px, 50px); */

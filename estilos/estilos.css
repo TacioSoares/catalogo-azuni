@@ -7,11 +7,17 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
 header  {
+    position: fixed;
+    top: 0;
+    height: 325px;
+    width: 100%;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +45,7 @@ header img {
 
 }
 menu {
+    padding: 5px;
     display: flex;
     margin-bottom: 40px;
     width: 150%;
@@ -60,11 +67,22 @@ li > img {
 
 #carrinho {
     position: relative;
-    transform: '100%';
+    /* transform: '100%'; */
     display: none;
-    transition: left 1s linear 1s;
+    /* transition: left 1s linear 1s; */
     border: 1px solid black;
     border-radius: 5px;
+}
+.quantidade {
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 65%;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 0.4em;
+    width: 10px;
 }
 .lista-carrinho {
     display: flex;
@@ -93,7 +111,11 @@ select, option {
     cursor: pointer;
     font-size: 2.5em;
 }
-.aneis, .brincos, .correntes, .pulseiras, .conjuntos {
+.aneis {
+    margin-top: 350px;
+    text-align: center;
+}
+.brincos, .correntes, .pulseiras, .conjuntos {
     margin-top: 100px;
     text-align: center;
 }
@@ -127,7 +149,9 @@ select, option {
 }
 
 .atirada {
-    position: absolute;
-    width: 100px;
-    transition: transform 0.3s;
+    position: relative;
+    top: 0px;
+    width: 50px;
+    transition: 0.3s;
+
 }
