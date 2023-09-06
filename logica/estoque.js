@@ -81,11 +81,14 @@ const estoque = {
     ],
     brincos: [
         {
-            nome: '',
-            subTipo: '',
+            nome: 'Argola curvada M',
+            subTipo: 'argola',
             descricao: '',
             valor: 15.90,
             fotos: [
+                './src/img/Brincos-e-argolas/argola-curvada-M/capa.jpg',
+                
+                './src/img/Brincos-e-argolas/argola-curvada-M/IMG_2023',
                 
             ]
         },
