@@ -427,26 +427,223 @@ const estoque = {
     ],
     colares: [
         {
-            nome: '',
-            subTipo: '',
+            nome: 'Chocker escama de peixe',
+            subTipo: 'chocker',
             descricao: '',
-            valor: 20.00,
+            valor: 41.90,
             fotos: [
-                '',
-                '',
-                ''
+                'src/img/Correntes,-colares-e-chokers/Chocker-escama-de-peixe/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-escama-de-peixe/68.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-escama-de-peixe/IMG_20230528_144445.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-escama-de-peixe/IMG_20230528_144449.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-escama-de-peixe/IMG_20230530_145311.jpg',
             ]
         },
         {
-            nome: '',
-            subTipo: '',
+            nome: 'Chocker pequenos corações',
+            subTipo: 'chocker',
             descricao: '',
-            valor: 20.00,
+            valor: 39.90,
             fotos: [
-                '',
-                '',
-                ''
+                'src/img/Correntes,-colares-e-chokers/Chocker-pequenos-corações/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-pequenos-corações/IMG_20230528_143349.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-pequenos-corações/IMG_20230528_143352.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-pequenos-corações/IMG_20230528_143355.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Chocker-pequenos-corações/IMG_20230529_164839.jpg',
             ]
+        },
+        {
+            nome: 'Choker Corações Entrelaçados',
+            subTipo: 'chocker',
+            descricao:'',
+            valor: 41.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Choker-Corações-Entrelaçados/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Choker-Corações-Entrelaçados/IMG_20230528_145350.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Choker-Corações-Entrelaçados/IMG_20230529_160037.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Choker-Corações-Entrelaçados/principal-chocker-coracoes-entrelacados.jpg',
+
+            ]
+
+        },
+        {
+            nome: 'Choker moedinha ',
+            subTipo: 'chocker',
+            descricao:'',
+            valor: 39.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Choker-moedinhas/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Choker-moedinhas/chocker moedinha3.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Choker-moedinhas/IMG_20230528_144101.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Choker-moedinhas/principal-moedinhas.jpg',
+            ]
+
+        },
+        {
+            nome: 'Colar tres circulos',
+            subTipo: 'colar',
+            descricao:'',
+            valor: 35.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/72.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/IMG_20230528_141310.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/IMG_20230529_160522.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/principal-3-circulos.jpg',
+
+            ]
+
+        },
+        {
+            nome: 'Colar V minimalista 50cm',
+            subTipo: 'colar',
+            descricao:'',
+            valor: 35.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/IMG_20230719_130151.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/v minimalista.jpg',
+
+            ]
+
+        },
+        {
+            nome: 'Gargantilha pingente de rosa e strass vermelho',
+            subTipo: 'gargantilha',
+            descricao:'',
+            valor: 39.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/IMG_20230527_204136.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/IMG_20230609_114344434.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/principal-rosa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/Sem título.jpg',
+            ]
+
+        },
+        {
+            nome: 'Gargantilha cruz deitada',
+            subTipo: 'gargantilha',
+            descricao:'',
+            valor: 31.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/31.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/63.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/IMG_20230528_142158.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/principal-cruz-deitada.jpg',
+            ]
+
+        },
+        {
+            nome: 'Gargantilha cruz e zirconia',
+            subTipo: 'gargantilha',
+            descricao:'',
+            valor: 35.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-e-zirconia/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-e-zirconia/IMG_20230527_210037.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-e-zirconia/IMG_20230528_140722.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-e-zirconia/principal-cruz-e-zirconia.jpg',
+
+            ]
+
+        },
+        {
+            nome: 'Gargantilha de fita 2mm',
+            subTipo: 'gargantilha',
+            descricao:'',
+            valor: 39.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-de-fita-2mm/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-de-fita-2mm/fita.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-de-fita-2mm/IMG_20230719_125420.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-de-fita-2mm/IMG_20230719_125751.jpg',
+            ]
+
+        },
+        {
+            nome: 'Gargantilha esfera fixa',
+            subTipo: 'gargantilha',
+            descricao:'',
+            valor: 35.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/garg esferas fixas.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/IMG_20230528_143653.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/IMG_20230528_143705.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/IMG_20230529_165233.jpg',
+            ]
+
+        },
+        {
+            nome: 'Gargantilha palito',
+            subTipo: 'gargantilha',
+            descricao:'',
+            valor: 30.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-palito/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-palito/IMG_20230528_141710.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-palito/IMG_20230529_160651.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-palito/principal-gargantilha-palito.jpg',
+            ]
+
+        },
+        {
+            nome: 'Gargantilha plaquinha abaulada e zircônia',
+            subTipo: 'gargantilha',
+            descricao:'',
+            valor: 37.90,
+            fotos:[
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-plaquinha-abaulada-e-zircônia/capa.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-plaquinha-abaulada-e-zircônia/IMG_20230528_143027.jpg',
+
+                'src/img/Correntes,-colares-e-chokers/Gargantilha-plaquinha-abaulada-e-zircônia/IMG_20230529_164707.jpg',
+
+            ]
+
         },
     ],
     conjuntos: [
