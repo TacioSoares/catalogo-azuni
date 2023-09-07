@@ -528,7 +528,7 @@ const estoque = {
 
         },
         {
-            nome: 'Gargantilha pingente de rosa e strass vermelho',
+            nome: 'Gargantilha rosa e strass vermelho',
             subTipo: 'gargantilha',
             descricao:'',
             valor: 39.90,

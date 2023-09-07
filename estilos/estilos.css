@@ -8,7 +8,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    /* background-image: linear-gradient(to right, rgb(60, 60, 161), rgb(12, 12, 48)); */
+    background-image: url('../src/fundo-ondulado-azul-da-agua-na-piscina.jpg');
+    background-position: center;
+    background-size: cover;
 }
 a {
     text-decoration: none;
@@ -16,18 +18,19 @@ a {
 }
 header  {
     
-    /* background-image: linear-gradient(to right, rgb(60, 60, 161), rgb(12, 12, 48)); */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.466);
     position: fixed;
     top: 0;
     bottom: 0;
     height: 290px;
     width: 100%;
-    background-color: white;
+    background-image: linear-gradient(to bottom, #82e5e5, #075050);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1
+    z-index: 1;
+    color: white;
 }
 header img {
     width: 230px;
@@ -65,6 +68,10 @@ h1 {
 h1, h4 {
     text-align: center;
 }
+h2 {
+    text-align: center;
+    align-items: center;
+}
 div {
     margin: 20px 0;
 }
@@ -90,6 +97,7 @@ li > img {
 }
 .quantidade {
     background-color: white;
+    color: black;
     position: relative;
     top: 0;
     left: 65%;
@@ -132,15 +140,25 @@ select, option {
     margin-right: 20px;
 }
 .aneis {
-    margin-top: 350px;
+    margin-top: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 .brincos, .correntes, .pulseiras, .conjuntos {
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 .container {
-    /* background-image: linear-gradient(to right, rgb(60, 60, 161), rgb(12, 12, 48)); */
+    background-image: url('../src/fundo-ondulado-azul-da-agua-na-piscina.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -154,7 +172,7 @@ select, option {
     flex-direction: column;
     justify-content: center;
     width: 155px;
-    background-color: lightblue;
+    background-color: #1B9B9C;
     padding: 5px;
     border-radius: 10px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.425);
