@@ -13,7 +13,8 @@ function moveBandejaCarrinho() {
         bandejaCarrinho.style.display = 'none'
     } else {
         bandejaCarrinho.style.display = 'block'
-        window.scrollTo(bandejaCarrinho.getBoundingClientRect().x, bandejaCarrinho.getBoundingClientRect().y)
+        window.scrollTo(0,0)
+        /* window.scrollTo(bandejaCarrinho.getBoundingClientRect().x, bandejaCarrinho.getBoundingClientRect().y) */
         bandejaCarrinho.style.left = '0'   
     }
 }
