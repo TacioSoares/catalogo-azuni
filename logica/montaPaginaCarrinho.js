@@ -1,4 +1,5 @@
 listaDeItens = []
+const sectionAneis = document.querySelector('.aneis')
 var total = 0
 const iconeCarrinho = document.querySelector('.carrinho')
 const botaoComprar = document.querySelector('#botao-comprar')
@@ -11,11 +12,13 @@ function moveBandejaCarrinho() {
     if(bandejaCarrinho.style.display === 'block') {
         bandejaCarrinho.style.left = '100%'
         bandejaCarrinho.style.display = 'none'
+        sectionAneis.style.marginTop = '320px'
     } else {
         bandejaCarrinho.style.display = 'block'
         window.scrollTo(0,0)
         /* window.scrollTo(bandejaCarrinho.getBoundingClientRect().x, bandejaCarrinho.getBoundingClientRect().y) */
         bandejaCarrinho.style.left = '0'   
+        sectionAneis.style.marginTop = '20px'
     }
 }
 

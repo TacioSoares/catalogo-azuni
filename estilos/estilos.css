@@ -87,12 +87,13 @@ li > img {
     border-radius: 50%;
 }
 
-#carrinho {
-    position: absolute;
-    top: '100%';
+#carrinho {/* 
+    position: absolute; *//* 
+    bottom: '100%';
     right: 0;
-    left: 0;
+    left: 0; */
     /* transform: '100%'; */
+    margin-top: 300px;
     display: none;
     width: 100%;
     /* transition: left 1s linear 1s; */
