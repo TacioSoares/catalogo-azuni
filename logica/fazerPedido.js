@@ -16,7 +16,6 @@ function verificaRepetidos(compra, index) {
         }
     })
     if(!(produtoComprado.includes(` ${quantidade} ${compra.nome},`))) {
-        produtoComprado += `
-         ${quantidade} ${compra.nome}.`
+        produtoComprado += `${quantidade} ${compra.nome}.\n`
     }
 }
