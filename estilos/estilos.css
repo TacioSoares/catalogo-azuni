@@ -175,7 +175,7 @@ select, option {
     flex-direction: column;
     justify-content: center;
     width: 155px;
-    background-color: #1B9B9C;
+    background-color: #075050;
     padding: 5px;
     border-radius: 10px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.425);
@@ -189,10 +189,12 @@ select, option {
     cursor: pointer;
     font-size: 1em;
     height: 50px;
+    color: white;
 }
 .container-produto p {
     font-weight: bold;
     cursor: pointer;
+    color: white;
 }
 .container-produto img {
     border-radius: 15px;
