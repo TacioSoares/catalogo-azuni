@@ -64,15 +64,10 @@ function atualizaCarrinho() {
         quantidade.innerHTML = ''
         quantidade.style.display = 'none'
     }
-    carrinho.forEach(compra => {
-        produtoComprado += ` ${compra.nome},`
-    })
     criaPaginaCarrinho()
 }
 
 function enviaProCarrinho(foto, event) {
-    console.log(event.target)
-    console.log(event.target.parentNode/* .getBoundingClientRect() */)
     let localPartida = event.target.parentNode
     let imagemAtirada = document.createElement('img')
     configuraImage(imagemAtirada, foto, localPartida)
