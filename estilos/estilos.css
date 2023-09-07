@@ -36,7 +36,7 @@ header  {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    color: white;
+    color: #075050;
 }
 header img {
     width: 230px;
@@ -100,6 +100,21 @@ li > img {
     background-color: rgb(214, 229, 243);
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+}
+.inserir-cep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#carrinho h3 {
+    font-size: 1.1em;
+}
+#cep {
+    padding: 3px;
+}
+#cep {
+    margin: auto;
 }
 .quantidade {
     background-color: white;
