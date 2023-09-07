@@ -110,9 +110,11 @@ li > img {
 }
 #carrinho h3 {
     font-size: 1.1em;
+    text-align: center;
 }
 #cep {
     padding: 3px;
+    border-radius: 3px;
 }
 #cep {
     margin: auto;
