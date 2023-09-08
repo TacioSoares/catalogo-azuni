@@ -130,6 +130,7 @@ li > img {
 #cep {
     padding: 3px;
     border-radius: 3px;
+    background-color: lightblue;
 }
 #cep {
     margin: auto;
