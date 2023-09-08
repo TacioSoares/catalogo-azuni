@@ -29,6 +29,9 @@ function mostraTodasAsFotos(imagens) {
     let divContainer = document.createElement('div')
     divContainer.setAttribute('class', 'container-fotos')
 
+    // COLOCA A DIV NA POSICAO ORIGINAL, PARA EVITAR VOLTAR DA POSIÇÃO MEXIDA ANTES
+
+    divContainer.style.left = '0'
     // CRIA AS IMAGENS 
     imagens.forEach(imagem => {
         let image = document.createElement('img')
