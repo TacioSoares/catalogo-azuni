@@ -169,12 +169,18 @@ select, option {
     cursor: pointer;
 }
 .filtro {
-    margin-left: 20px;
+    margin-left: 50px;
+    flex-shrink: 2;
+    flex-grow: 0;
 }
 .carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
     cursor: pointer;
     font-size: 2.5em;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 .aneis {
     margin-top: 320px;
