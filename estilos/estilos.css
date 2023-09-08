@@ -13,6 +13,7 @@ body {
     background-position: center;
     background-size: contain;
     font-family: 'Handlee', cursive;
+    max-width: 100vw;
 }
 
 body h2 {
