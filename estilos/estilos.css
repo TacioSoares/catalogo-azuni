@@ -263,3 +263,28 @@ select, option {
     transition: 0.3s;
     z-index: 1;
 }
+.fotos-grandes {
+    position: absolute;
+    top: 500;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.container-fotos {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 15px;
+}
+.bota-fechar {
+    position: relative;
+    top: 20px;
+    left: 90%;
+    color: white;
+    cursor: pointer;
+}
+.container-fotos img {
+    width: 90%;
+    margin: 0 20px;
+}

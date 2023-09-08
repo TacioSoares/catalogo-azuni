@@ -3,6 +3,7 @@ containerBrincos = document.querySelector('.brincos').querySelector('.container'
 containerCorrentes = document.querySelector('.correntes').querySelector('.container')
 containerConjuntos = document.querySelector('.conjuntos').querySelector('.container')
 containerPulseiras = document.querySelector('.pulseiras').querySelector('.container')
+var fotosDasPeças = []
 
 
 function preenchePecas(produtos, container) {
@@ -29,8 +30,8 @@ function preenchePecas(produtos, container) {
 function insereAtributos(div, img, elemento, button) {
     div.setAttribute('class', 'container-produto')
     img.setAttribute('src', `${elemento.fotos[0]}`)
+    fotosDasPeças.push(elemento.fotos)
     img.setAttribute('alt', `${elemento.nome}`)
-    img.addEventListener('click', mostraTodasAsFotos)
     button.setAttribute('type', `button`)
     button.setAttribute('value', `Adicionar ao carrinho`)
     button.setAttribute('class', `botao-adiciona-no-carrinho`)
@@ -57,6 +58,3 @@ preenchePecas(estoque.conjuntos, containerConjuntos)
 preenchePecas(estoque.conjuntos, containerPulseiras)
 
 
-function mostraTodasAsFotos() {
-    console.log()
-}
