@@ -56,7 +56,7 @@ function mostraTodasAsFotos(imagens) {
     document.body.appendChild(sectionFotosGrandes)
     
     // DESABILITA O SCROLL DA PÁGINA
-    document.body.style.overflowY = 'hidden'
+    document.body.style.overflow = 'hidden'
 
     // CRIA O ARRASTO COM DEDO/MOUSE
     arrastoDaDiv(divContainer)
