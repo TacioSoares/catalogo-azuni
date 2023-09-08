@@ -234,7 +234,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Brinco mini ancora',
+            nome: 'Brinco mini âncora',
             subTipo: 'brinco',
             descricao: '',
             valor: 7.90,
