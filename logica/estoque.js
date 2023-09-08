@@ -273,7 +273,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Brinco mini Escama furtacor',
+            nome: 'Brinco mini escama furtacor',
             subTipo: 'brinco',
             descricao: '',
             valor: 7.90,
