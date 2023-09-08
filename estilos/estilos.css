@@ -98,6 +98,7 @@ li > img {
     right: 0;
     left: 0; */
     /* transform: '100%'; */
+    font-weight: bold;
     margin-top: 300px;
     display: none;
     width: 100%;

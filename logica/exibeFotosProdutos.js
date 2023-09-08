@@ -12,7 +12,7 @@ window.addEventListener('mousedown', function(e){
 
 
 pecasNoCatalogo.forEach(card => {
-    card.addEventListener('click', () => {
+    card.querySelector('img').addEventListener('click', () => {
         let fotosDaPecaClicada = fotosDasPeças[pecasNoCatalogo.indexOf(card)]
         
         mostraTodasAsFotos(fotosDaPecaClicada)
