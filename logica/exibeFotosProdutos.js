@@ -104,7 +104,7 @@ function pararArrasto(event) {
 
 function fechaFotos(event) {
     // REMOVE A SECÇÃO DO HTML
-    document.body.removeChild(event.target.parentNode)
-    document.body.style.overflowY = ''
+    document.body.style.overflow = ''
     header.style.position = 'fixed'
+    document.body.removeChild(event.target.parentNode)
 }

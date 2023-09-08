@@ -88,9 +88,9 @@ const estoque = {
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-curvada-M/capa.jpg',
                 
-                './src/img/Brincos-e-argolas/IMG_20230527_191713.jpg',
+                'src/img/Brincos-e-argolas/Argola-curvada-M/IMG_20230527_191713.jpg',
 
-                './src/img/Brincos-e-argolas/IMG_20230527_191713.jpg'
+                'src/img/Brincos-e-argolas/Argola-curvada-M/IMG_20230529_152118.jpg'
             ]
         },
         {
