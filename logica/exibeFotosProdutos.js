@@ -1,7 +1,7 @@
 
 const pecasNoCatalogo = Array.from(document.querySelectorAll('.container-produto'))
 var posicao = 0
-
+const header = document.querySelector('header')
 let arrastando = false;
 let posicaoInicialX 
 let posicaoElementoX
@@ -24,13 +24,11 @@ function mostraTodasAsFotos(imagens) {
     // CRIA A SECTION QUE VAI A DIV COM TODAS AS FOTOS
     let sectionFotosGrandes = document.createElement('section')
     sectionFotosGrandes.setAttribute('class','fotos-grandes')
-    
     // CRIA A DIV QUE VAI AS FOTOS DENTRO
     let divContainer = document.createElement('div')
     divContainer.setAttribute('class', 'container-fotos')
 
     // COLOCA A DIV NA POSICAO ORIGINAL, PARA EVITAR VOLTAR DA POSIÇÃO MEXIDA ANTES
-
     divContainer.style.left = '0'
     // CRIA AS IMAGENS 
     imagens.forEach(imagem => {
@@ -47,17 +45,17 @@ function mostraTodasAsFotos(imagens) {
     // ADICIONA A DIV E SPAN DENTRO DA SECTION
     sectionFotosGrandes.appendChild(spanFecha)
     sectionFotosGrandes.appendChild(divContainer)
-    
     // ADICIONA A FUNÇÃO FECHAR NO SPAN
     spanFecha.addEventListener('click', fechaFotos)
 
     // INSERE A SECTION EM DETERMINADA POSICAO DENTRO DO BODY
-    sectionFotosGrandes.style.top = `${posicao-400}px`
+    sectionFotosGrandes.style.top = `${posicao-350}px`
     document.body.appendChild(sectionFotosGrandes)
     
     // DESABILITA O SCROLL DA PÁGINA
     document.body.style.overflow = 'hidden'
-
+    
+    header.style.width = `${sectionFotosGrandes.clientWidth}`
     // CRIA O ARRASTO COM DEDO/MOUSE
     arrastoDaDiv(divContainer)
 }
