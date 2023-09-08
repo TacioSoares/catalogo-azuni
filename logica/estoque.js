@@ -40,7 +40,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Anel losângulo e linhas',
+            nome: 'Anel losânlo e linhas',
             subTipo: 'anel',
             descricao: '',
             valor: 20.90,
@@ -66,7 +66,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Anel vintege arabescos',
+            nome: 'Anel vintage arabescos',
             subTipo: 'anel',
             descricao: '',
             valor: 15.90,
@@ -273,7 +273,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Brinco mini escama furtacor',
+            nome: 'Brinco escama furtacor',
             subTipo: 'brinco',
             descricao: '',
             valor: 7.90,
