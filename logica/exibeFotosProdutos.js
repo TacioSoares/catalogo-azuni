@@ -67,33 +67,37 @@ function arrastoDaDiv(divContainer) {
 }
 
 function iniciarArrasto(event) {
+    let elementoArrastado = event.target.parentNode
+    console.log(elementoArrastado)
     arrastando = true;
     posicaoInicialX = event.clientX || event.touches[0].clientX;
-    posicaoElementoX = event.target.getBoundingClientRect().left;
+    posicaoElementoX = elementoArrastado.getBoundingClientRect().left;
   
     // Adicione eventos de escuta para continuar o arrasto e parar o arrasto.
-    document.addEventListener("mousemove", arrastar);
-    document.addEventListener("touchmove", arrastar);
-    document.addEventListener("mouseup", pararArrasto);
-    document.addEventListener("touchend", pararArrasto);
+    elementoArrastado.addEventListener("mousemove", arrastar);
+    elementoArrastado.addEventListener("touchmove", arrastar);
+    elementoArrastado.addEventListener("mouseup", pararArrasto);
+    elementoArrastado.addEventListener("touchend", pararArrasto);
 }
   
 function arrastar(event) {
+    let elementoArrastado = event.target.parentNode
     if (!arrastando) return;
     const posX = event.clientX || event.touches[0].clientX;
   
     const deltaX = posX - posicaoInicialX;
-  
-    event.target.style.left = posicaoElementoX + deltaX + "px";
+    console.log(posicaoElementoX+deltaX)
+    elementoArrastado.style.left = `${posicaoElementoX+deltaX}px`;
 }
   
-function pararArrasto() {
+function pararArrasto(event) {
+    let elementoArrastado = event.target.parentNode
     console.log('soltou')
     arrastando = false;
-    document.removeEventListener("mousemove", arrastar);
-    document.removeEventListener("touchmove", arrastar);
-    document.removeEventListener("mouseup", pararArrasto);
-    document.removeEventListener("touchend", pararArrasto);
+    elementoArrastado.removeEventListener("mousemove", arrastar);
+    elementoArrastado.removeEventListener("touchmove", arrastar);
+    elementoArrastado.removeEventListener("mouseup", pararArrasto);
+    elementoArrastado.removeEventListener("touchend", pararArrasto);
 }
   
 
