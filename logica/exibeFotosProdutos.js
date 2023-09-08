@@ -54,7 +54,7 @@ function mostraTodasAsFotos(imagens) {
     
     // DESABILITA O SCROLL DA PÁGINA
     document.body.style.overflow = 'hidden'
-    
+    header.style.position = 'relative'
     header.style.width = `${sectionFotosGrandes.clientWidth}`
     // CRIA O ARRASTO COM DEDO/MOUSE
     arrastoDaDiv(divContainer)
@@ -106,4 +106,5 @@ function fechaFotos(event) {
     // REMOVE A SECÇÃO DO HTML
     document.body.removeChild(event.target.parentNode)
     document.body.style.overflowY = ''
+    header.style.position = 'fixed'
 }
