@@ -276,6 +276,7 @@ select, option {
     position: relative;
     justify-content: space-between;
     padding: 15px;
+    right: 900px;
 }
 .bota-fechar {
     position: relative;
