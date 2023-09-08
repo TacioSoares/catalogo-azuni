@@ -335,7 +335,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Brinco olho grego solitario',
+            nome: 'Brinco olho grego solitário',
             subTipo: 'brinco',
             descricao: '',
             valor: 12.90,
@@ -350,7 +350,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Brinco ondulado circulo',
+            nome: 'Brinco ondulado círculo',
             subTipo: 'brinco',
             descricao: '',
             valor: 15.90,
@@ -427,8 +427,8 @@ const estoque = {
     ],
     colares: [
         {
-            nome: 'Chocker escama de peixe',
-            subTipo: 'chocker',
+            nome: 'Choker escama de peixe',
+            subTipo: 'choker',
             descricao: '',
             valor: 41.90,
             fotos: [
@@ -444,8 +444,8 @@ const estoque = {
             ]
         },
         {
-            nome: 'Chocker pequenos corações',
-            subTipo: 'chocker',
+            nome: 'Choker pequenos corações',
+            subTipo: 'choker',
             descricao: '',
             valor: 39.90,
             fotos: [
@@ -462,7 +462,7 @@ const estoque = {
         },
         {
             nome: 'Choker corações entrelaçados',
-            subTipo: 'chocker',
+            subTipo: 'choker',
             descricao:'',
             valor: 41.90,
             fotos:[
@@ -479,7 +479,7 @@ const estoque = {
         },
         {
             nome: 'Choker moedinha ',
-            subTipo: 'chocker',
+            subTipo: 'choker',
             descricao:'',
             valor: 39.90,
             fotos:[
@@ -494,7 +494,7 @@ const estoque = {
 
         },
         {
-            nome: 'Colar tres circulos',
+            nome: 'Colar tres círculos',
             subTipo: 'colar',
             descricao:'',
             valor: 35.90,
@@ -528,7 +528,7 @@ const estoque = {
 
         },
         {
-            nome: 'Gargantilha rosa e strass vermelho',
+            nome: 'Gargantilha com rosa e strass vermelho',
             subTipo: 'gargantilha',
             descricao:'',
             valor: 39.90,
@@ -564,7 +564,7 @@ const estoque = {
 
         },
         {
-            nome: 'Gargantilha cruz e zirconia',
+            nome: 'Gargantilha cruz e zircônia',
             subTipo: 'gargantilha',
             descricao:'',
             valor: 35.90,
