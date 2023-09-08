@@ -37,21 +37,23 @@
         </menu>
     </header>
     <section id="carrinho">
-        <h4>Ítens adicionados no carrinho</h4>
-        <div class="produto">
-            <ul class="lista-carrinho" style="list-style: none;">
-                
-            </ul>
+        <div id="transparencia">
+            <h4>Ítens adicionados no carrinho</h4>
+            <div class="produto">
+                <ul class="lista-carrinho" style="list-style: none;">
             
-        </div>
-        <div class="inserir-cep">
-            <h3>
-                Insira o seu CEP para o cálculo do frete:
-            </h3>
-            <input type="number" placeholder="Digite o seu CEP" name="cep" id="cep" keyboardType="numeric" maxLength={8} minlength={8}>
-        </div>
-        <div class="finalizar">
-            <input type="button" id="botao-comprar" value="Fazer pedido" disabled>
+                </ul>
+            
+            </div>
+            <div class="inserir-cep">
+                <h3>
+                    Insira o seu CEP para o cálculo do frete:
+                </h3>
+                <input type="number" placeholder="Digite o seu CEP" name="cep" id="cep" keyboardType="numeric" maxLength={8} minlength={8}>
+            </div>
+            <div class="finalizar">
+                <input type="button" id="botao-comprar" value="Fazer pedido" disabled>
+            </div>
         </div>
     </section>
     <section class="aneis">
@@ -122,6 +124,7 @@
     <script src="./logica/adicionaProdutoNoCarrinho.js"></script>
     <script src="./logica/montaPaginaCarrinho.js"></script>
     <script src="./logica/fazerPedido.js"></script>
+    <script src="./logica/exibeFotosProdutos.js"></script>
 </body>
 
 </html>

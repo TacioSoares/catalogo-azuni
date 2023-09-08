@@ -103,10 +103,15 @@ li > img {
     width: 100%;
     /* transition: left 1s linear 1s; */
     border: 1px solid black;
+    background-image: url('../src/fundo2.jpg');
+    background-size: cover;
     background-color: rgb(209, 228, 240);
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
     color: #075050;
+}
+#transparencia {
+    background-color: rgba(255, 255, 255, 0.747);
 }
 #carrinho h4 {
     margin-top: 10px;
@@ -127,6 +132,11 @@ li > img {
 }
 #cep {
     margin: auto;
+}
+#botao-comprar {
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 2px;
 }
 .quantidade {
     background-color: white;

@@ -30,6 +30,7 @@ function insereAtributos(div, img, elemento, button) {
     div.setAttribute('class', 'container-produto')
     img.setAttribute('src', `${elemento.fotos[0]}`)
     img.setAttribute('alt', `${elemento.nome}`)
+    img.addEventListener('click', mostraTodasAsFotos)
     button.setAttribute('type', `button`)
     button.setAttribute('value', `Adicionar ao carrinho`)
     button.setAttribute('class', `botao-adiciona-no-carrinho`)
@@ -54,3 +55,8 @@ preenchePecas(estoque.brincos, containerBrincos)
 preenchePecas(estoque.colares, containerCorrentes)
 preenchePecas(estoque.conjuntos, containerConjuntos)
 preenchePecas(estoque.conjuntos, containerPulseiras)
+
+
+function mostraTodasAsFotos() {
+    console.log()
+}
