@@ -40,7 +40,7 @@ const estoque = {
             ]
         },
         {
-            nome: 'Anel losânlo e linhas',
+            nome: 'Anel losângo e linhas',
             subTipo: 'anel',
             descricao: '',
             valor: 20.90,

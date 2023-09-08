@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@100;600&display=swap');
 *,
 ::before,
 *::after {
@@ -7,7 +6,6 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Handlee', cursive;
 }
 body {
     background-image: url('../src/fundo1.jpg');
@@ -102,6 +100,7 @@ li > img {
     margin-top: 300px;
     display: none;
     width: 100%;
+    font-family: 'Handlee', cursive;
     /* transition: left 1s linear 1s; */
     border: 1px solid black;
     background-image: url('../src/fundo2.jpg');
@@ -230,6 +229,7 @@ select, option {
     background-color: #075050;
     padding: 5px;
     border-radius: 10px;
+    font-family: 'Handlee', cursive;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.425);
     /* width: calc(32% - (4 * 5px)); */
 }
@@ -254,6 +254,7 @@ select, option {
     cursor: pointer;
 }
 .botao-adiciona-no-carrinho {
+    font-family: 'Handlee', cursive;
     cursor: pointer;
     padding: 5px;
     border-radius: 3px;
