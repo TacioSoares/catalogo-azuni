@@ -302,13 +302,13 @@ select, option {
 }
 .seta-esquerda {
     position: absolute;
-    top: 50%;
+    top: 40%;
     font-size: 2.2em;
     color: white;
 }
 .seta-direita{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 92%;
     font-size: 2.2em;
     color: white;
