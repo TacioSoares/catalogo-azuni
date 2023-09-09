@@ -14,19 +14,26 @@ window.addEventListener('mousedown', function(e){
 pecasNoCatalogo.forEach(card => {
     card.querySelector('img').addEventListener('click', () => {
         let fotosDaPecaClicada = fotosDasPeças[pecasNoCatalogo.indexOf(card)]
-        
-        mostraTodasAsFotos(fotosDaPecaClicada)
+        let descricaoDaPecaClicada = descricaoDasPecas[pecasNoCatalogo.indexOf(card)]
+        mostraTodasAsFotos(fotosDaPecaClicada, descricaoDaPecaClicada)
     })
 
 })
 
-function mostraTodasAsFotos(imagens) {
+function mostraTodasAsFotos(imagens, descricao) {
     // CRIA A SECTION QUE VAI A DIV COM TODAS AS FOTOS
     let sectionFotosGrandes = document.createElement('section')
     sectionFotosGrandes.setAttribute('class','fotos-grandes')
+
     // CRIA A DIV QUE VAI AS FOTOS DENTRO
     let divContainer = document.createElement('div')
     divContainer.setAttribute('class', 'container-fotos')
+
+    // CRIA O PARÁGRAFO QUE VAI A DESCRIÇÃO DA PEÇA DENTRO DA SECTION
+    let pDescricao = document.createElement('p')
+    pDescricao.setAttribute('class','descricao-peca')
+    // ADICIONA DESCRICAO DENTRO DO PARAGRAFO P
+    pDescricao.innerHTML = `${descricao}`
 
     // COLOCA A DIV NA POSICAO ORIGINAL, PARA EVITAR VOLTAR DA POSIÇÃO MEXIDA ANTES
     divContainer.style.left = '0'
@@ -42,9 +49,10 @@ function mostraTodasAsFotos(imagens) {
     let spanFecha = document.createElement('span')
     spanFecha.setAttribute('class','material-symbols-outlined bota-fechar')
     spanFecha.innerHTML = 'cancel'
-    // ADICIONA A DIV E SPAN DENTRO DA SECTION
+    // ADICIONA A DIV, SPAN E PARAGRAFO DENTRO DA SECTION
     sectionFotosGrandes.appendChild(spanFecha)
     sectionFotosGrandes.appendChild(divContainer)
+    sectionFotosGrandes.appendChild(pDescricao)
     // ADICIONA A FUNÇÃO FECHAR NO SPAN
     spanFecha.addEventListener('click', fechaFotos)
 

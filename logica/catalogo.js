@@ -4,7 +4,7 @@ containerCorrentes = document.querySelector('.correntes').querySelector('.contai
 containerConjuntos = document.querySelector('.conjuntos').querySelector('.container')
 containerPulseiras = document.querySelector('.pulseiras').querySelector('.container')
 var fotosDasPeças = []
-
+var descricaoDasPecas = []
 
 function preenchePecas(produtos, container) {
     produtos.forEach(elemento => { //Para cada anel, a criação de um anuncio
@@ -30,6 +30,7 @@ function preenchePecas(produtos, container) {
 function insereAtributos(div, img, elemento, button) {
     div.setAttribute('class', 'container-produto')
     img.setAttribute('src', `${elemento.fotos[0]}`)
+    descricaoDasPecas.push(elemento.descricao)
     fotosDasPeças.push(elemento.fotos)
     img.setAttribute('alt', `${elemento.nome}`)
     button.setAttribute('type', `button`)

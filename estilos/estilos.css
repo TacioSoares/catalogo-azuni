@@ -299,3 +299,8 @@ select, option {
     margin: 0 20px;
     border-radius: 15px;
 }
+.descricao-peca {
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+}
