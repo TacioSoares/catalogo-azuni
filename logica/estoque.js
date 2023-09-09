@@ -503,8 +503,6 @@ const estoque = {
 
                 'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/72.jpg',
 
-                'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/IMG_20230528_141310.jpg',
-
                 'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/IMG_20230529_160522.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/principal-3-circulos.jpg',
@@ -519,8 +517,6 @@ const estoque = {
             valor: 35.90,
             fotos:[
                 'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/capa.jpg',
-
-                'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/IMG_20230719_130151.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/v minimalista.jpg',
 
@@ -559,7 +555,6 @@ const estoque = {
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/IMG_20230528_142158.jpg',
 
-                'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/principal-cruz-deitada.jpg',
             ]
 
         },
