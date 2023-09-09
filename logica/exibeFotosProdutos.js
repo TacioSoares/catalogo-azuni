@@ -5,6 +5,8 @@ const header = document.querySelector('header')
 let arrastando = false;
 let posicaoInicialX 
 let posicaoElementoX
+let contadorDePassagemDeFoto = 0
+let fotosDaPecaClicada = []
 
 window.addEventListener('mousedown', function(e){
     posicao = e.pageY
@@ -13,7 +15,7 @@ window.addEventListener('mousedown', function(e){
 
 pecasNoCatalogo.forEach(card => {
     card.querySelector('img').addEventListener('click', () => {
-        let fotosDaPecaClicada = fotosDasPeças[pecasNoCatalogo.indexOf(card)]
+        fotosDaPecaClicada = fotosDasPeças[pecasNoCatalogo.indexOf(card)]
         let descricaoDaPecaClicada = descricaoDasPecas[pecasNoCatalogo.indexOf(card)]
         mostraTodasAsFotos(fotosDaPecaClicada, descricaoDaPecaClicada)
     })
@@ -45,17 +47,27 @@ function mostraTodasAsFotos(imagens, descricao) {
         // ADICIONA AS IMAGENS DENTRO DA DIV
         divContainer.appendChild(image)
     })
-    // CRIA BOTÃO DE FECHAR A SECTION 
+    // CRIA BOTÃO DE FECHAR A SECTION E SETAS A ESQUERDA E DIREITA
     let spanFecha = document.createElement('span')
+    let spanEsquerda = document.createElement('span')
+    let spanDireita = document.createElement('span')
+    // DEFINE AS CLASSES
     spanFecha.setAttribute('class','material-symbols-outlined bota-fechar')
+    spanEsquerda.setAttribute('class','material-symbols-outlined seta-esquerda')
+    spanDireita.setAttribute('class','material-symbols-outlined seta-direita')
     spanFecha.innerHTML = 'cancel'
-    // ADICIONA A DIV, SPAN E PARAGRAFO DENTRO DA SECTION
+    spanEsquerda.innerHTML = 'arrow_back_ios'
+    spanDireita.innerHTML = 'arrow_forward_ios'
+    // ADICIONA A DIV, SPAN, SETAS E PARAGRAFO DENTRO DA SECTION
     sectionFotosGrandes.appendChild(spanFecha)
     sectionFotosGrandes.appendChild(divContainer)
+    sectionFotosGrandes.appendChild(spanEsquerda)
+    sectionFotosGrandes.appendChild(spanDireita)
     sectionFotosGrandes.appendChild(pDescricao)
     // ADICIONA A FUNÇÃO FECHAR NO SPAN
     spanFecha.addEventListener('click', fechaFotos)
-
+    spanDireita.addEventListener('click', passaFoto)
+    spanEsquerda.addEventListener('click', voltaFoto)
     // INSERE A SECTION EM DETERMINADA POSICAO DENTRO DO BODY
     sectionFotosGrandes.style.top = `${posicao-350}px`
     window.scroll(0,posicao-350)
@@ -112,4 +124,43 @@ function fechaFotos(event) {
     // REMOVE A SECÇÃO DO HTML
     document.body.style.overflow = ''
     document.body.removeChild(event.target.parentNode)
+    contadorDePassagemDeFoto = 0
+    event.target.parentNode.querySelector('.container-fotos').style.transition = 'none'
+}
+
+function passaFoto(event) {
+    let elementoArrastado = event.target.parentNode.querySelector('.container-fotos')
+
+    let passoParaPassar = elementoArrastado.querySelector('img').clientWidth
+
+    /* console.log((passoParaPassar*(contadorDePassagemDeFoto+1))+60) */
+
+    if(contadorDePassagemDeFoto < (fotosDaPecaClicada.length-1)) {
+        console.log(contadorDePassagemDeFoto)
+        elementoArrastado.style.transition = 'left 0.5s'
+        elementoArrastado.style.left = `${-(((passoParaPassar)+40)*(contadorDePassagemDeFoto+1))}px`
+        contadorDePassagemDeFoto += 1
+        event.target.parentNode.querySelector('.seta-esquerda').style.opacity = '100%'
+        if(contadorDePassagemDeFoto == (fotosDaPecaClicada.length-1)){
+            event.target.style.opacity = '50%'
+        }
+    }
+}
+function voltaFoto(event) {
+    let elementoArrastado = event.target.parentNode.querySelector('.container-fotos')
+    let passoParaPassar = elementoArrastado.querySelector('img').clientWidth
+
+
+    if((contadorDePassagemDeFoto) < fotosDaPecaClicada.length && contadorDePassagemDeFoto != 0) {
+        elementoArrastado.style.transition = 'left 0.5s'
+        elementoArrastado.style.left = `${-(((passoParaPassar)+40)*(contadorDePassagemDeFoto-1))}px`
+        contadorDePassagemDeFoto -= 1
+        event.target.parentNode.querySelector('.seta-direita').style.opacity = '100%'
+        console.log(contadorDePassagemDeFoto)
+        if(contadorDePassagemDeFoto == 0){
+            event.target.style.opacity = '50%'
+        }
+    } else {
+        event.target.style.opacity = '50%'
+    }
 }

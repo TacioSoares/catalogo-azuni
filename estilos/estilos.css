@@ -299,6 +299,19 @@ select, option {
     margin: 0 20px;
     border-radius: 15px;
 }
+.seta-esquerda {
+    position: absolute;
+    top: 50%;
+    font-size: 2.2em;
+    color: white;
+}
+.seta-direita{
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    font-size: 2.2em;
+    color: white;
+}
 .descricao-peca {
     text-align: center;
     margin-bottom: 5px;
