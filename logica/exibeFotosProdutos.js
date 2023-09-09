@@ -145,6 +145,9 @@ function passaFoto(event) {
             event.target.style.opacity = '50%'
         }
     }
+    setTimeout(() => { 
+        elementoArrastado.style.transition = 'left 0s'
+    }, 200);
 }
 function voltaFoto(event) {
     let elementoArrastado = event.target.parentNode.querySelector('.container-fotos')
@@ -163,4 +166,7 @@ function voltaFoto(event) {
     } else {
         event.target.style.opacity = '50%'
     }
+    setTimeout(() => { 
+        elementoArrastado.style.transition = 'left 0s'
+    }, 200);
 }
