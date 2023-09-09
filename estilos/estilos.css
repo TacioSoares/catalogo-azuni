@@ -301,15 +301,16 @@ select, option {
     border-radius: 15px;
 }
 .seta-esquerda {
-    position: absolute;
-    top: 40%;
+    position: relative;
+    bottom: 40%;
+    left: 5%;
     font-size: 2.2em;
     color: white;
 }
 .seta-direita{
-    position: absolute;
-    top: 40%;
-    left: 92%;
+    position: relative;
+    bottom: 40%;
+    left: 80%;
     font-size: 2.2em;
     color: white;
 }
