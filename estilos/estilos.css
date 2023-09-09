@@ -278,6 +278,7 @@ select, option {
     width: 100%;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.623);
+    height: 100vh;
 }
 
 .container-fotos {
