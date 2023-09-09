@@ -58,6 +58,7 @@ function mostraTodasAsFotos(imagens, descricao) {
 
     // INSERE A SECTION EM DETERMINADA POSICAO DENTRO DO BODY
     sectionFotosGrandes.style.top = `${posicao-350}px`
+    window.scroll(0,posicao-350)
     document.body.appendChild(sectionFotosGrandes)
     
     // DESABILITA O SCROLL DA PÁGINA
