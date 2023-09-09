@@ -293,4 +293,5 @@ select, option {
 .container-fotos img {
     width: 90%;
     margin: 0 20px;
+    border-radius: 15px;
 }

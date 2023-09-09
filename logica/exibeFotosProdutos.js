@@ -34,7 +34,7 @@ function mostraTodasAsFotos(imagens) {
     imagens.forEach(imagem => {
         let image = document.createElement('img')
         image.setAttribute('src', `${imagem}`)
-
+        image.setAttribute('class','foto-grande')
         // ADICIONA AS IMAGENS DENTRO DA DIV
         divContainer.appendChild(image)
     })
@@ -69,7 +69,6 @@ function arrastoDaDiv(divContainer) {
 
 function iniciarArrasto(event) {
     let elementoArrastado = event.target.parentNode
-    console.log(elementoArrastado)
     arrastando = true;
     posicaoInicialX = event.clientX || event.touches[0].clientX;
     posicaoElementoX = elementoArrastado.getBoundingClientRect().left;
@@ -87,13 +86,11 @@ function arrastar(event) {
     const posX = event.clientX || event.touches[0].clientX;
   
     const deltaX = posX - posicaoInicialX;
-    console.log(posicaoElementoX+deltaX)
     elementoArrastado.style.left = `${posicaoElementoX+deltaX}px`;
 }
   
 function pararArrasto(event) {
     let elementoArrastado = event.target.parentNode
-    console.log('soltou')
     arrastando = false;
     elementoArrastado.removeEventListener("mousemove", arrastar);
     elementoArrastado.removeEventListener("touchmove", arrastar);
