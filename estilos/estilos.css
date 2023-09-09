@@ -9,9 +9,10 @@
 }
 body {
     background-image: url('../src/fundo1.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
-    background-size: contain;
+    background-position: right;
+    background-size: cover;
     font-family: 'Handlee', cursive;
     max-width: 100vw;
 }
@@ -213,7 +214,7 @@ select, option {
     text-align: center;
 }
 .container {
-    background-color: white/* rgb(235, 232, 232) */;
+    background-color:rgb(235, 232, 232);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
