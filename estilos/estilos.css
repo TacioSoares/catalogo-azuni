@@ -213,7 +213,7 @@ select, option {
     text-align: center;
 }
 .container {
-    background-color: rgb(235, 232, 232);
+    background-color: white/* rgb(235, 232, 232) */;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
