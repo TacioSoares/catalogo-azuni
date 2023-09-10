@@ -478,7 +478,7 @@ const estoque = {
 
         },
         {
-            nome: 'Choker moedinha ',
+            nome: 'Choker moedinha',
             subTipo: 'choker',
             descricao:'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 39.90,

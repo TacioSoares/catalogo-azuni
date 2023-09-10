@@ -8,7 +8,6 @@ const bandejaCarrinho = document.querySelector('#carrinho')
 iconeCarrinho.addEventListener('click', moveBandejaCarrinho)
 
 function moveBandejaCarrinho() {
-    console.log('clicou')
     if(bandejaCarrinho.style.display === 'block') {
         bandejaCarrinho.style.left = '100%'
         bandejaCarrinho.style.display = 'none'
@@ -84,8 +83,9 @@ function criaElementosTotais(total) {
 }
 
 function removeDaLixeira(event) {
-    let nomeDoItemRemovido = event.target.parentNode.querySelector('p').innerText
+    let nomeDoItemRemovido = event.target.parentNode.querySelector('p').innerHTML
     carrinho.forEach(produto => {
+        console.log(produto)
         if(produto.nome == nomeDoItemRemovido) {
             carrinho.splice(carrinho.indexOf(produto), 1)
             atualizaCarrinho()
