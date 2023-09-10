@@ -7,6 +7,7 @@ const estoque = {
             valor: 22.90,
             promocao: false,
             precoPromocional: 10.00,
+            nomePromocao: '',
             status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-cruzado-de-fio/capa.jpg',
@@ -22,8 +23,9 @@ const estoque = {
             descricao: 'Material: aço inoxidável, hipoalergênico.',
             valor: 17.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-duplo-coração/capa.jpg',
 
@@ -38,8 +40,9 @@ const estoque = {
             descricao: 'Material: aço inoxidável, hipoalergênico.',
             valor: 15.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-fases-da-lua/capa.jpg',
 
@@ -54,8 +57,9 @@ const estoque = {
             descricao: 'Material: aço inoxidável, hipoalergênico.',
             valor: 20.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-losango-e-linhas/capa.jpg',
 
@@ -70,8 +74,9 @@ const estoque = {
             descricao: 'Material: aço inoxidável, hipoalergênico.',
             valor: 19.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-seta-dupla/capa.jpg',
 
@@ -86,8 +91,9 @@ const estoque = {
             descricao: 'Anel regulável. <br>Material: aço inoxidável, hipoalergênico.',
             valor: 15.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-vintage-arabescos-regulavel/capa.jpg',
 
@@ -104,11 +110,12 @@ const estoque = {
             descricao: 'Tamanho: 4cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 17.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-curvada-M/capa.jpg',
-                
+
                 'src/img/Brincos-e-argolas/Argola-curvada-M/IMG_20230527_191713.jpg',
 
                 'src/img/Brincos-e-argolas/Argola-curvada-M/IMG_20230529_152118.jpg'
@@ -120,8 +127,9 @@ const estoque = {
             descricao: 'Tamanho: 3cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 15.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-curvada-P/capa.jpg',
 
@@ -136,8 +144,9 @@ const estoque = {
             descricao: 'Diâmetro: 2,7cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 15.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-fio-triangular/capa.jpg',
 
@@ -154,13 +163,14 @@ const estoque = {
             descricao: 'Tamanho: 2cm. <br>Material: aço inoxidável, hipoalergênico.',
             valor: 21.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-torcida-gancho-italiano/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Argola-torcida-gancho-italiano/IMG_20230527_190502.jpg',
-                
+
                 'src/img/Brincos-e-argolas/Argola-torcida-gancho-italiano/IMG_20230529_151747.jpg',
             ]
         },
@@ -170,8 +180,9 @@ const estoque = {
             descricao: 'Zircônia de 4,5mm na cravação inglesa .<br>Material: aço inoxidável e zircônia, hipoalergênico.',
             valor: 21.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argolinha-de-pressão-com-zircônia/capa.jpg',
 
@@ -188,8 +199,9 @@ const estoque = {
             descricao: 'Pingente de coração com zircônia de 5,5mm.<br>Material: aço inoxidável e zircônia, hipoalergênico.',
             valor: 22.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argolinha-de-pressão-coração-com-zircônia/capa.jpg',
 
@@ -205,8 +217,9 @@ const estoque = {
             descricao: 'Brinco de argola com detalhes no fio. Diâmetro: 2,6cm. <br>Material: aço inoxidável, hipoalergênico.',
             valor: 18.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argolinha-trabalhada/capa.jpg',
 
@@ -223,8 +236,9 @@ const estoque = {
             descricao: 'Diâmetro: 3,5cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 16.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-de-argola-fio-quadrado/capa.jpg',
 
@@ -240,8 +254,9 @@ const estoque = {
             descricao: 'Argolinha com tarraxa e pino com pingente de olho grego azul e branco. <br>Material: aço inoxidável, hipoalergênico.',
             valor: 18.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-de-argola-olho-grego/capa.jpg',
 
@@ -256,8 +271,9 @@ const estoque = {
             descricao: 'Fio trançado imitando uma corrente. Diâmetro:4cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 21.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-de-argola-trançada/capa.jpg',
 
@@ -272,8 +288,9 @@ const estoque = {
             descricao: 'Tamanho 6mm. <br>Material: aço inoxidável e zircônia, hipoalergênico.',
             valor: 20.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-estrela-com-zircônia/capa.jpg',
 
@@ -291,8 +308,10 @@ const estoque = {
             valor: 7.90,
 
             promocao: false,
-            valorPromocional: 10,
-status: 'disponivel',            fotos: [
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-ancora/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-ancora/IMG_20230527_172149.jpg',
@@ -307,8 +326,9 @@ status: 'disponivel',            fotos: [
             valor: 7.90,
 
             promocao: false,
-            valorPromocional: 10,
-status: 'disponivel',            fotos: [
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-Borboleta/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-Borboleta/IMG_20230527_171347.jpg',
@@ -323,8 +343,9 @@ status: 'disponivel',            fotos: [
             valor: 7.90,
 
             promocao: false,
-            valorPromocional: 10,
-status: 'disponivel',            fotos: [
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-coração/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-coração/IMG_20230527_165028.jpg',
@@ -339,8 +360,9 @@ status: 'disponivel',            fotos: [
             valor: 7.90,
 
             promocao: false,
-            valorPromocional: 10,
-status: 'disponivel',            fotos: [
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-Escama-furtacor/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-Escama-furtacor/IMG_20230527_165937.jpg',
@@ -357,8 +379,9 @@ status: 'disponivel',            fotos: [
             valor: 7.90,
 
             promocao: false,
-            valorPromocional: 10,
-status: 'disponivel',            fotos: [
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-estrela/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-estrela/IMG_20230527_170423.jpg',
@@ -373,8 +396,9 @@ status: 'disponivel',            fotos: [
             valor: 7.90,
 
             promocao: false,
-            valorPromocional: 10,
-status: 'disponivel',            fotos: [
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-meia-lua/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-meia-lua/IMG_20230527_170948.jpg',
@@ -388,8 +412,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Brinco com chapa abaulada redonda.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 21.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-moeda-de-chapa/capa.jpg',
 
@@ -412,8 +437,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Olho grego de 6mm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 12.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-olho-grego-solitario/capa.jpg',
 
@@ -430,8 +456,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Brinco em formato de círculo com chapa ondulada.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 15.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-ondulado-circulo/capa.jpg',
 
@@ -450,8 +477,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Brinco em formato de gota com chapa ondulada.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 15.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-ondulado-gota/capa.jpg',
 
@@ -466,8 +494,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Tamanho: 6mm<br>Material: aço inoxidável e zircônia, hipoalergênico.',
             valor: 20.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-quadrado-com-zircônia/capa.jpg',
 
@@ -484,8 +513,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Brinco com formato quadrado. Tamanho: 1,70x1,50cm<br>Material: aço inoxidável, hipoalergênico.',
             valor: 14.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-quadrado-de-fio/capa.jpg',
 
@@ -500,8 +530,9 @@ status: 'disponivel',            fotos: [
             descricao: '<br>Material: aço inoxidável, hipoalergênico.',
             valor: 20.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-triângulo-duplo-vazado/capa.jpg',
 
@@ -522,8 +553,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Tamanho: 45cm. <br>Material: aço inoxidável, hipoalergênico.',
             valor: 41.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Chocker-escama-de-peixe/capa.jpg',
 
@@ -542,8 +574,9 @@ status: 'disponivel',            fotos: [
             descricao: 'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 39.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Chocker-pequenos-corações/capa.jpg',
 
@@ -559,12 +592,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Choker corações entrelaçados',
             subTipo: 'choker',
-            descricao:'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 41.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Choker-Corações-Entrelaçados/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Choker-Corações-Entrelaçados/IMG_20230528_145350.jpg',
@@ -579,12 +613,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Choker moedinha',
             subTipo: 'choker',
-            descricao:'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 39.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'indisponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'indisponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Choker-moedinhas/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Choker-moedinhas/chocker moedinha3.jpg',
@@ -598,12 +633,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Colar tres círculos',
             subTipo: 'colar',
-            descricao:'Tamanho: 60cm de comprimento.<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Tamanho: 60cm de comprimento.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 35.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/72.jpg',
@@ -618,12 +654,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Colar V minimalista',
             subTipo: 'colar',
-            descricao:'Tamanho: 50cm.<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Tamanho: 50cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 35.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/v minimalista.jpg',
@@ -634,12 +671,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Gargantilha com rosa e strass vermelho',
             subTipo: 'gargantilha',
-            descricao:'Pingente de rosa cortado a laser mais pingente de strass vermelho. Tamanho: 40cm.<br>Material: aço inoxidável e strass, hipoalergênico.',
+            descricao: 'Pingente de rosa cortado a laser mais pingente de strass vermelho. Tamanho: 40cm.<br>Material: aço inoxidável e strass, hipoalergênico.',
             valor: 39.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/IMG_20230527_204136.jpg',
@@ -655,12 +693,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Gargantilha cruz deitada',
             subTipo: 'gargantilha',
-            descricao:'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 31.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/31.jpg',
@@ -675,12 +714,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Gargantilha cruz e zircônia',
             subTipo: 'gargantilha',
-            descricao:'Pingente de cruz cortado a laser e pingente de zircônia. Tamanho: 45cm.<br>Material: aço inoxidável e zircônia, hipoalergênico.',
+            descricao: 'Pingente de cruz cortado a laser e pingente de zircônia. Tamanho: 45cm.<br>Material: aço inoxidável e zircônia, hipoalergênico.',
             valor: 35.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-e-zirconia/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-e-zirconia/IMG_20230527_210037.jpg',
@@ -695,12 +735,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Gargantilha de fita 2mm',
             subTipo: 'gargantilha',
-            descricao:'Espessura: 2mm. Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Espessura: 2mm. Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 39.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-de-fita-2mm/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-de-fita-2mm/fita.jpg',
@@ -714,12 +755,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Gargantilha esfera fixa',
             subTipo: 'gargantilha',
-            descricao:'Tamanho: 45cm<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Tamanho: 45cm<br>Material: aço inoxidável, hipoalergênico.',
             valor: 35.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/garg esferas fixas.jpg',
@@ -735,12 +777,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Gargantilha palito',
             subTipo: 'gargantilha',
-            descricao:'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
+            descricao: 'Tamanho: 45cm.<br>Material: aço inoxidável, hipoalergênico.',
             valor: 30.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-palito/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-palito/IMG_20230528_141710.jpg',
@@ -754,12 +797,13 @@ status: 'disponivel',            fotos: [
         {
             nome: 'Gargantilha plaquinha abaulada e zircônia',
             subTipo: 'gargantilha',
-            descricao:'Tamanho: 45cm.<br>Material: aço inoxidável e zircônia, hipoalergênico.',
+            descricao: 'Tamanho: 45cm.<br>Material: aço inoxidável e zircônia, hipoalergênico.',
             valor: 37.90,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
-            fotos:[
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
+            fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-plaquinha-abaulada-e-zircônia/capa.jpg',
 
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-plaquinha-abaulada-e-zircônia/IMG_20230528_143027.jpg',
@@ -777,8 +821,9 @@ status: 'disponivel',            fotos: [
             descricao: '',
             valor: 20.00,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 '',
                 '',
@@ -791,8 +836,9 @@ status: 'disponivel',            fotos: [
             descricao: '',
             valor: 20.00,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 '',
                 '',
@@ -807,8 +853,9 @@ status: 'disponivel',            fotos: [
             descricao: '',
             valor: 20.00,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 '',
                 '',
@@ -821,8 +868,9 @@ status: 'disponivel',            fotos: [
             descricao: '',
             valor: 20.00,
             promocao: false,
-            valorPromocional: 10,
-            status: 'disponivel',
+            precoPromocional: 10,
+  
+  nomePromocao: '',          status: 'disponivel',
             fotos: [
                 '',
                 '',

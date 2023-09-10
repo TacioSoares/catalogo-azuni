@@ -67,6 +67,13 @@ function confereStatus(elemento, div, pEsgotado, button, img, p) {
     if(elemento.promocao) {
         
         p.innerHTML = `<span class="riscado">R$ ${elemento.valor.toFixed(2)}</span> <span class="promo">R$ ${elemento.precoPromocional.toFixed(2)}</span>`
+        if(elemento.nomePromocao == 'blackfriday') {
+            div.style.backgroundColor = 'black'
+            p.style.color = 'red'
+            p.style.fontWeight = 'bolder'
+            div.querySelector('h3').style.color = 'white'
+            div.querySelector('span').style.color = 'white'
+        }
     }
 }
 
