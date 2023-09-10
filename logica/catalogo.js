@@ -15,19 +15,23 @@ function preenchePecas(produtos, container) {
         var h3 = document.createElement('h3')
         var p = document.createElement('p')
         var button = document.createElement('input')
-
+        var pEsgotado = document.createElement('p')
         // INSERE ATRIBUTOS NOS ELEMENTOS CRIADOS
-        insereAtributos(divProduto, img, elemento, button) 
+        insereAtributos(divProduto, img, elemento, button, pEsgotado) 
 
         // ADICIONA TEXTOS NOS ELEMENTOS
-        adicionaTextos(h3, p, elemento)
-
+        adicionaTextos(h3, p, elemento, pEsgotado)
+       
+        // CONFERE STATUS DO PRODUTO
+        
         // INSERE OS ELEMENTOS UM NOS OUTROS
-        container.appendChild(aglutinaElementos(divProduto, img, h3, p, button))
+        container.appendChild(aglutinaElementos(divProduto, img, h3, p, button, pEsgotado, elemento))
+
+        confereStatus(elemento, divProduto, pEsgotado, button, img, p)
     });
 }
 
-function insereAtributos(div, img, elemento, button) {
+function insereAtributos(div, img, elemento, button, pEsgotado) {
     div.setAttribute('class', 'container-produto')
     img.setAttribute('src', `${elemento.fotos[0]}`)
     descricaoDasPecas.push(elemento.descricao)
@@ -36,21 +40,35 @@ function insereAtributos(div, img, elemento, button) {
     button.setAttribute('type', `button`)
     button.setAttribute('value', `Adicionar ao carrinho`)
     button.setAttribute('class', `botao-adiciona-no-carrinho`)
+    pEsgotado.setAttribute('id','esgotado')
 }
 
-function adicionaTextos(h3, p, elemento) {
+function adicionaTextos(h3, p, elemento, pEsgotado) {
     h3.innerHTML = `${elemento.nome}`
     p.innerHTML = `R$ ${elemento.valor.toFixed(2)}`
+    pEsgotado.innerHTML = 'ESGOTADO'
 }
 
-function aglutinaElementos(div, img, h3, p, button) {
+function aglutinaElementos(div, img, h3, p, button, pEsgotado, elemento) {
     div.appendChild(img)
     div.appendChild(h3)
     div.appendChild(p)
     div.appendChild(button)
+    
     return div
 }
 
+function confereStatus(elemento, div, pEsgotado, button, img, p) {
+    if(elemento.status != 'disponivel') {
+        button.setAttribute('disabled', 'true')
+        img.style.opacity = '0.5'
+        div.appendChild(pEsgotado)
+    }
+    if(elemento.promocao) {
+        
+        p.innerHTML = `<span class="riscado">R$ ${elemento.valor.toFixed(2)}</span> <span class="promo">R$ ${elemento.precoPromocional.toFixed(2)}</span>`
+    }
+}
 
 preenchePecas(estoque.aneis, containerAneis)
 preenchePecas(estoque.brincos, containerBrincos)

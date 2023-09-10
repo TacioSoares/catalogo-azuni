@@ -41,7 +41,7 @@ header  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
     color: #075050;
 }
 header img {
@@ -226,6 +226,7 @@ select, option {
 }
 
 .container-produto {
+    position: relative;
     display: flex;
     margin: 15px 5px;
     flex-direction: column;
@@ -250,10 +251,35 @@ select, option {
     margin: auto;
     align-items: center;
 }
+#esgotado {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #07505046/* rgba(255, 255, 255, 0.582) */;
+    font-size: 1.3em;
+    width: 95%;
+    user-select: none;
+    transform: rotate(-45deg)
+}
 .container-produto p {
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
     cursor: pointer;
     color: #075050;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.riscado {
+    text-decoration: line-through;
+    color: black;
+    font-size: 0.8em;
+}
+.promo {
+    color: rgb(160, 3, 3);
 }
 .container-produto img {
     border-radius: 15px;
