@@ -85,7 +85,6 @@ function criaElementosTotais(total) {
 function removeDaLixeira(event) {
     let nomeDoItemRemovido = event.target.parentNode.querySelector('p').innerHTML
     carrinho.forEach(produto => {
-        console.log(produto)
         if(produto.nome == nomeDoItemRemovido) {
             carrinho.splice(carrinho.indexOf(produto), 1)
             atualizaCarrinho()
