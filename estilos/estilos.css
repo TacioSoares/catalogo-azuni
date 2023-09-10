@@ -261,7 +261,7 @@ select, option {
     font-size: 1.3em;
     width: 95%;
     user-select: none;
-    transform: rotate(-45deg)
+    transform: rotate(-45deg);
 }
 .container-produto p {
     display: flex;
@@ -284,6 +284,7 @@ select, option {
 .container-produto img {
     border-radius: 15px;
     cursor: pointer;
+    z-index: 1;
 }
 .botao-adiciona-no-carrinho {
     font-family: 'Handlee', cursive;
