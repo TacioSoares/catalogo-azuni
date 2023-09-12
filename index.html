@@ -4,35 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/faviconAzuni.ico" type="image/x-icon">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/estilos.css">
-    <title>Catálogo Azuni</title>
+    <title>Azuni</title>
 </head>
 
 <body>
     <header>
-        <img src="./src/logo sem fundo.png" alt="Logo azuni">
-        
-        <h1 id="titulo-principal">Catálogo</h1>
+        <div class="redes-sociais">
+            <a href="https://instagram.com/azunioficial?igshid=MWZjMTM2ODFkZg==" target="_blank"><img class="icones-redes-sociais" src="src/img/svgs/instagram-2165.svg" alt="logo instagram"></a>
+
+            <img class="logo-azuni" src="./src/logo sem fundo.png" alt="Logo azuni">
+
+            <a href="https://wa.me//557186686018?text=Olá,%20olhei%20o%20site%20AZUNI%20e%20gostaria%20de%20tirar%20uma%20dúvida" target="_blank"><img class="icones-redes-sociais" src="src/img/svgs/whatsapp-2174.svg" alt="logo whatssap"></a>
+        </div>
         <menu>
-            <div class="filtro">
-                <h4>
-                    Mostrar apenas:
-                </h4>
-                <select name="categoria" id="categoria-itens">
-                    <option value="todos">Todos</option>
-                    <option value="aneis">Anéis</option>
-                    <option value="brincos">Argolas/Brincos</option>
-                    <option value="correntes">Chokers/Colares/Gargantilhas</option>
-                    <option value="conjuntos">Conjuntos</option>
-                    <option value="pulseiras">Pulseiras</option>
-                </select>
+            <div class="container-menu">
+                <div class="filtro">
+                    <select name="categoria" id="categoria-itens">
+                        <option value="">CATEGORIAS</option>
+                        <option value="todos">Todos</option>
+                        <option value="aneis">Anéis</option>
+                        <option value="brincos">Argolas/Brincos</option>
+                        <option value="correntes">Chokers/Colares/Gargantilhas</option>
+                        <option value="conjuntos">Conjuntos</option>
+                        <option value="pulseiras">Pulseiras</option>
+                    </select>
+                </div>
+                <span class="material-symbols-outlined carrinho">
+                    <span class="quantidade"></span>
+                    shopping_cart
+                </span>
             </div>
-            <span class="material-symbols-outlined carrinho">
-                <span class="quantidade"></span>
-                shopping_cart
-            </span>
             
         </menu>
     </header>

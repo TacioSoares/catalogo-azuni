@@ -32,6 +32,7 @@ function criaPaginaCarrinho() {
 
         let pn = document.createElement('p')
         let pv = document.createElement('p')
+        pv.setAttribute('id', 'valor-produto')
         colocaTextos(pn, pv, span, produto)
 
         lista.appendChild(montaPedido(li, imagem, pn, pv, span))

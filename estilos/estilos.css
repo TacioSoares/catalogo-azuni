@@ -16,7 +16,9 @@ body {
     font-family: 'Handlee', cursive;
     max-width: 100vw;
 }
-
+select {
+    text-align: center;
+}
 body h2 {
     background-color: rgba(0, 0, 0, 0.507);
     width: 100%;
@@ -43,6 +45,25 @@ header  {
     align-items: center;
     z-index: 2;
     color: #075050;
+}
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+}
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.icones-redes-sociais {
+    width: 30px;
+    cursor: pointer;
 }
 header img {
     width: 230px;
@@ -160,6 +181,7 @@ li > img {
 .lista-carrinho {
     display: flex;
     flex-direction: column;
+    
 }
 
 .item-carrinho {
@@ -169,13 +191,30 @@ li > img {
     padding: 10px;
     text-align: center;
     width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.692);
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 .item-carrinho img {
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
+}
+.item-carrinho p {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 50%;
+    
+}
+#valor-produto {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    text-align: center;
 }
 .total {
     font-weight: bold;
+    margin: 0 13%;
 }
 menu div {
     display: flex;
