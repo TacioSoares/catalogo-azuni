@@ -1,5 +1,4 @@
 const categoria = document.querySelector('#categoria-itens')
-
 const containerProdutos = document.querySelectorAll('.produtos')
 
 categoria.addEventListener('change', filtroDeCategoria)
