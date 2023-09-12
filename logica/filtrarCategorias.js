@@ -10,7 +10,7 @@ function filtroDeCategoria() {
     containerProdutos.forEach(section => {
         if(categoriaSelecionada != '' && categoriaSelecionada != 'todos') {
             section.style.transition = 'opacity 0.5s'
-            section.style.opacity = '10%'
+            section.style.opacity = '11%'
             setTimeout(() => {
                 section.style.display = 'none'
                 section.style.marginTop = '0px'
