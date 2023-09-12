@@ -1,10 +1,11 @@
-containerAneis = document.querySelector('.aneis').querySelector('.container')
-containerBrincos = document.querySelector('.brincos').querySelector('.container')
-containerCorrentes = document.querySelector('.correntes').querySelector('.container')
-containerConjuntos = document.querySelector('.conjuntos').querySelector('.container')
-containerPulseiras = document.querySelector('.pulseiras').querySelector('.container')
+const containerAneis = document.querySelector('.aneis').querySelector('.container')
+const containerBrincos = document.querySelector('.brincos').querySelector('.container')
+const containerCorrentes = document.querySelector('.correntes').querySelector('.container')
+const containerConjuntos = document.querySelector('.conjuntos').querySelector('.container')
+const containerPulseiras = document.querySelector('.pulseiras').querySelector('.container')
 var fotosDasPeças = []
 var descricaoDasPecas = []
+
 
 function preenchePecas(produtos, container) {
     produtos.forEach(elemento => { //Para cada anel, a criação de um anuncio

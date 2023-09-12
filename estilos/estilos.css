@@ -244,6 +244,7 @@ select, option {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 .brincos, .correntes, .pulseiras, .conjuntos {
     display: flex;
