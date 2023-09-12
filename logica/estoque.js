@@ -24,8 +24,8 @@ const estoque = {
             valor: 17.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-duplo-coração/capa.jpg',
 
@@ -41,8 +41,8 @@ const estoque = {
             valor: 15.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-fases-da-lua/capa.jpg',
 
@@ -58,8 +58,8 @@ const estoque = {
             valor: 20.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-losango-e-linhas/capa.jpg',
 
@@ -75,8 +75,8 @@ const estoque = {
             valor: 19.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-seta-dupla/capa.jpg',
 
@@ -92,8 +92,8 @@ const estoque = {
             valor: 15.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 './src/img/Aneis/Anel-vintage-arabescos-regulavel/capa.jpg',
 
@@ -111,8 +111,8 @@ const estoque = {
             valor: 17.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-curvada-M/capa.jpg',
 
@@ -128,8 +128,8 @@ const estoque = {
             valor: 15.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-curvada-P/capa.jpg',
 
@@ -145,8 +145,8 @@ const estoque = {
             valor: 15.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-fio-triangular/capa.jpg',
 
@@ -164,8 +164,8 @@ const estoque = {
             valor: 21.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argola-torcida-gancho-italiano/capa.jpg',
 
@@ -181,8 +181,8 @@ const estoque = {
             valor: 21.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argolinha-de-pressão-com-zircônia/capa.jpg',
 
@@ -200,8 +200,8 @@ const estoque = {
             valor: 22.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argolinha-de-pressão-coração-com-zircônia/capa.jpg',
 
@@ -218,8 +218,8 @@ const estoque = {
             valor: 18.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Argolinha-trabalhada/capa.jpg',
 
@@ -237,8 +237,8 @@ const estoque = {
             valor: 16.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-de-argola-fio-quadrado/capa.jpg',
 
@@ -255,8 +255,8 @@ const estoque = {
             valor: 18.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-de-argola-olho-grego/capa.jpg',
 
@@ -272,8 +272,8 @@ const estoque = {
             valor: 21.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-de-argola-trançada/capa.jpg',
 
@@ -289,8 +289,8 @@ const estoque = {
             valor: 20.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-estrela-com-zircônia/capa.jpg',
 
@@ -309,8 +309,8 @@ const estoque = {
 
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-ancora/capa.jpg',
 
@@ -327,8 +327,8 @@ const estoque = {
 
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel', fotos: [
+
+            nomePromocao: '', status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-Borboleta/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-Borboleta/IMG_20230527_171347.jpg',
@@ -344,8 +344,8 @@ const estoque = {
 
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel', fotos: [
+
+            nomePromocao: '', status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-coração/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-coração/IMG_20230527_165028.jpg',
@@ -361,8 +361,8 @@ const estoque = {
 
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel', fotos: [
+
+            nomePromocao: '', status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-Escama-furtacor/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-Escama-furtacor/IMG_20230527_165937.jpg',
@@ -380,8 +380,8 @@ const estoque = {
 
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel', fotos: [
+
+            nomePromocao: '', status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-estrela/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-estrela/IMG_20230527_170423.jpg',
@@ -397,8 +397,8 @@ const estoque = {
 
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel', fotos: [
+
+            nomePromocao: '', status: 'disponivel', fotos: [
                 'src/img/Brincos-e-argolas/Brinco-mini-meia-lua/capa.jpg',
 
                 'src/img/Brincos-e-argolas/Brinco-mini-meia-lua/IMG_20230527_170948.jpg',
@@ -413,8 +413,8 @@ const estoque = {
             valor: 21.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-moeda-de-chapa/capa.jpg',
 
@@ -438,8 +438,8 @@ const estoque = {
             valor: 12.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-olho-grego-solitario/capa.jpg',
 
@@ -457,8 +457,8 @@ const estoque = {
             valor: 15.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-ondulado-circulo/capa.jpg',
 
@@ -478,8 +478,8 @@ const estoque = {
             valor: 15.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-ondulado-gota/capa.jpg',
 
@@ -495,8 +495,8 @@ const estoque = {
             valor: 20.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-quadrado-com-zircônia/capa.jpg',
 
@@ -514,8 +514,8 @@ const estoque = {
             valor: 14.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-quadrado-de-fio/capa.jpg',
 
@@ -531,8 +531,8 @@ const estoque = {
             valor: 20.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Brincos-e-argolas/Brinco-triângulo-duplo-vazado/capa.jpg',
 
@@ -554,8 +554,8 @@ const estoque = {
             valor: 41.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Chocker-escama-de-peixe/capa.jpg',
 
@@ -575,8 +575,8 @@ const estoque = {
             valor: 39.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Chocker-pequenos-corações/capa.jpg',
 
@@ -596,8 +596,8 @@ const estoque = {
             valor: 41.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Choker-Corações-Entrelaçados/capa.jpg',
 
@@ -617,8 +617,8 @@ const estoque = {
             valor: 39.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'indisponivel',
+
+            nomePromocao: '', status: 'indisponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Choker-moedinhas/capa.jpg',
 
@@ -637,8 +637,8 @@ const estoque = {
             valor: 35.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Colar-tres-circulos/capa.jpg',
 
@@ -658,8 +658,8 @@ const estoque = {
             valor: 35.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Colar-V-minimalista-50cm/capa.jpg',
 
@@ -675,8 +675,8 @@ const estoque = {
             valor: 39.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-com-pingente-de-Rosa-a-laser-e-strass-vermelho/capa.jpg',
 
@@ -697,8 +697,8 @@ const estoque = {
             valor: 31.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-deitada/capa.jpg',
 
@@ -718,8 +718,8 @@ const estoque = {
             valor: 35.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-cruz-e-zirconia/capa.jpg',
 
@@ -739,8 +739,8 @@ const estoque = {
             valor: 39.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-de-fita-2mm/capa.jpg',
 
@@ -759,8 +759,8 @@ const estoque = {
             valor: 35.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-esfera-fixa/capa.jpg',
 
@@ -781,8 +781,8 @@ const estoque = {
             valor: 30.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-palito/capa.jpg',
 
@@ -801,8 +801,8 @@ const estoque = {
             valor: 37.90,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 'src/img/Correntes,-colares-e-chokers/Gargantilha-plaquinha-abaulada-e-zircônia/capa.jpg',
 
@@ -822,8 +822,8 @@ const estoque = {
             valor: 20.00,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 '',
                 '',
@@ -837,8 +837,8 @@ const estoque = {
             valor: 20.00,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 '',
                 '',
@@ -854,8 +854,8 @@ const estoque = {
             valor: 20.00,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 '',
                 '',
@@ -869,8 +869,8 @@ const estoque = {
             valor: 20.00,
             promocao: false,
             precoPromocional: 10,
-  
-  nomePromocao: '',          status: 'disponivel',
+
+            nomePromocao: '', status: 'disponivel',
             fotos: [
                 '',
                 '',

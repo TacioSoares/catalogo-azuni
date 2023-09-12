@@ -33,5 +33,5 @@ function filtroDeCategoria() {
     })
     setTimeout(() => {
         window. scrollTo(0, 0)
-    }, 450);
+    }, 400);
 }
